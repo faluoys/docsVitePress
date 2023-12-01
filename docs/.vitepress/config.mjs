@@ -61,10 +61,13 @@ export default defineConfig({
             {text: '首页', link: '/'},
             {text: '开始阅读', link: '/web/outline'},
             {
-                text: '下拉选择框',
+                text: '资源',
                 items: [
-                    { text: 'options-1', link: '/' },
-                    { text: 'options-2', link: 'http://www.baidu.com' }
+                    { text: 'vitepress文档', link: 'https://vitepress.dev/' },
+                    { text: '部署文档', link: 'https://vuepress.vuejs.org/zh/guide/deploy.html#google-firebase' },
+                    { text: '部署配置-1', link: 'https://juejin.cn/post/7164276166084263972' },
+                    { text: '部署配置-2', link: 'https://juejin.cn/post/7064746265266880549#heading-18' },
+                    { text: '解决执行bash', link: 'https://blog.csdn.net/air__Heaven/article/details/125756680' },
                 ]
             }
         ],
@@ -88,8 +91,44 @@ export default defineConfig({
                 collapsible: true,
                 collapsed: true,
                 items: [
-                    {text: '基础', link: '/javascript/Basics'},
+                    {text: '基础', link: '/javascript/Basics.md'},
                     {text: '进阶', link: '/javascript/Upgrade'},
+                ]
+            },
+            {
+                text: '🥞Vue.js',
+                collapsible: true,
+                collapsed: true,
+                items: [
+                    {text: '基础', link: '/Vue/Basics.md'},
+                    {text: '进阶', link: '/Vue/Upgrade'},
+                ]
+            },
+            {
+                text: '🥣React.js',
+                collapsible: true,
+                collapsed: true,
+                items: [
+                    {text: '基础', link: '/React/Basics.md'},
+                    {text: '进阶', link: '/React/Upgrade'},
+                ]
+            },
+            {
+                text: '🥝Node.js',
+                collapsible: true,
+                collapsed: true,
+                items: [
+                    {text: '基础', link: '/Node/Basics.md'},
+                    {text: '进阶', link: '/Node/Upgrade'},
+                ]
+            },
+            {
+                text: '🥑Git',
+                collapsible: true,
+                collapsed: true,
+                items: [
+                    {text: '基础', link: '/Git/Basics.md'},
+                    {text: '进阶', link: '/Git/Upgrade'},
                 ]
             },
             {
