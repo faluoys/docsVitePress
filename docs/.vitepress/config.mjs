@@ -47,9 +47,13 @@ export default defineConfig({
         returnToTopLabel: "返回顶部",
         sidebarMenuLabel: "菜单",
         darkModeSwitchLabel: "外观",
-        lastUpdated: true,
-        themeConfig: {
-            lastUpdatedText: "最近更新时间"
+        // lastUpdated: true,
+        lastUpdated: {
+            text: '最后更新于',
+            // formatOptions: {
+            //     dateStyle: 'full',
+            //     timeStyle: 'medium'
+            // }
         },
         localeLinks: {
             items: [
