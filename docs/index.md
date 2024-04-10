@@ -14,8 +14,6 @@ hero:
       text: 开始阅读
       link: /web/outline
     - theme: alt
-      icon:
-        src: /icon/webqianduan.svg
       text: 抖音@木昜各有叁水
       link: https://v.douyin.com/iRGFsyeS/ 8@5.com 02/22
     - theme: alt
