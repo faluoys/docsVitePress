@@ -11,11 +11,12 @@ hero:
     alt: 前端Fa
   actions:
     - theme: brand
-      text: 🍈开始阅读
+      text: 开始阅读
       link: /web/outline
     - theme: alt
-      icon: /icon/webqianduan.svg
-      text: 🌶️抖音@木昜各有叁水
+      icon:
+        src: /icon/webqianduan.svg
+      text: 抖音@木昜各有叁水
       link: https://v.douyin.com/iRGFsyeS/ 8@5.com 02/22
     - theme: alt
       text: github

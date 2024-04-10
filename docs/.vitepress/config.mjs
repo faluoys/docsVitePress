@@ -78,68 +78,67 @@ export default defineConfig({
                 link: "/web/outline"
             },
             {
-                text: '🍓Web前端',
-                collapsible: true,
-                collapsed: true,
+                text: '🍍基础',
                 items: [
-                    {text: '大纲', link: '/web/outline'},
-                    {text: '指引', link: '/web/zhiyin'},
+                    {
+                        text: '🍓Web前端',
+                        collapsed: true,
+                        items: [
+                            {text: '大纲', link: '/web/outline'},
+                            {text: '指引', link: '/web/zhiyin'},
+                        ]
+                    },
+                    {
+                        text: '🧀JavaScript',
+                        collapsed: true,
+                        items: [
+                            {text: '基础', link: '/javascript/Basics.md'},
+                            {text: '进阶', link: '/javascript/Upgrade'},
+                        ]
+                    },
+                    {
+                        text: '🥞Vue.js',
+                        collapsed: true,
+                        items: [
+                            {text: '基础', link: '/Vue/Basics.md'},
+                            {text: '进阶', link: '/Vue/Upgrade'},
+                        ]
+                    },
+                    {
+                        text: '🥣React.js',
+                        collapsed: true,
+                        items: [
+                            {text: '基础', link: '/React/Basics.md'},
+                            {text: '进阶', link: '/React/Upgrade'},
+                        ]
+                    },
+                    {
+                        text: '🥝Node.js',
+                        collapsed: true,
+                        items: [
+                            {text: '基础', link: '/Node/Basics.md'},
+                            {text: '进阶', link: '/Node/Upgrade'},
+                        ]
+                    },
+                    {
+                        text: '🥑Git',
+                        collapsed: true,
+                        items: [
+                            {text: '基础', link: '/Git/Basics.md'},
+                            {text: '进阶', link: '/Git/Upgrade'},
+                        ]
+                    },
+                    {
+                        text: '🍎Examples',
+                        collapsed: true,
+                        items: [
+                            {text: 'Markdown Examples', link: '/Examples/markdown-examples'},
+                            {text: 'Runtime API Examples', link: '/Examples/api-examples'},
+                        ]
+                    },
                 ]
             },
-            {
-                text: '🧀JavaScript',
-                collapsible: true,
-                collapsed: true,
-                items: [
-                    {text: '基础', link: '/javascript/Basics.md'},
-                    {text: '进阶', link: '/javascript/Upgrade'},
-                ]
-            },
-            {
-                text: '🥞Vue.js',
-                collapsible: true,
-                collapsed: true,
-                items: [
-                    {text: '基础', link: '/Vue/Basics.md'},
-                    {text: '进阶', link: '/Vue/Upgrade'},
-                ]
-            },
-            {
-                text: '🥣React.js',
-                collapsible: true,
-                collapsed: true,
-                items: [
-                    {text: '基础', link: '/React/Basics.md'},
-                    {text: '进阶', link: '/React/Upgrade'},
-                ]
-            },
-            {
-                text: '🥝Node.js',
-                collapsible: true,
-                collapsed: true,
-                items: [
-                    {text: '基础', link: '/Node/Basics.md'},
-                    {text: '进阶', link: '/Node/Upgrade'},
-                ]
-            },
-            {
-                text: '🥑Git',
-                collapsible: true,
-                collapsed: true,
-                items: [
-                    {text: '基础', link: '/Git/Basics.md'},
-                    {text: '进阶', link: '/Git/Upgrade'},
-                ]
-            },
-            {
-                text: '🍎Examples',
-                collapsible: true,
-                collapsed: true,
-                items: [
-                    {text: 'Markdown Examples', link: '/Examples/markdown-examples'},
-                    {text: 'Runtime API Examples', link: '/Examples/api-examples'},
-                ]
-            },
+
         ],
 
         socialLinks: [
