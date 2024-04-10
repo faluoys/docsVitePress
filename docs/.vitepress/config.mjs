@@ -2,7 +2,7 @@ import {defineConfig} from 'vitepress';
 import {SearchPlugin} from "vitepress-plugin-search";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base: '/docsVitepress/',
+    base: '/docsVitePress/',
     outDir: "../dist",
     head: [
         ['link', { rel: 'icon', href: 'icon/FA1.svg' }]
