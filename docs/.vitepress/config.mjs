@@ -92,7 +92,7 @@ export default defineConfig({
                         text: '🧀JavaScript',
                         collapsed: true,
                         items: [
-                            {text: '基础', link: '/javascript/Basics.md'},
+                            {text: '基础', link: '/javascript/Basics'},
                             {text: '进阶', link: '/javascript/Upgrade'},
                         ]
                     },
@@ -100,7 +100,7 @@ export default defineConfig({
                         text: '🥞Vue.js',
                         collapsed: true,
                         items: [
-                            {text: '基础', link: '/Vue/Basics.md'},
+                            {text: '基础', link: '/Vue/Basics'},
                             {text: '进阶', link: '/Vue/Upgrade'},
                         ]
                     },
@@ -108,7 +108,7 @@ export default defineConfig({
                         text: '🥣React.js',
                         collapsed: true,
                         items: [
-                            {text: '基础', link: '/React/Basics.md'},
+                            {text: '基础', link: '/React/Basics'},
                             {text: '进阶', link: '/React/Upgrade'},
                         ]
                     },
@@ -116,7 +116,7 @@ export default defineConfig({
                         text: '🥝Node.js',
                         collapsed: true,
                         items: [
-                            {text: '基础', link: '/Node/Basics.md'},
+                            {text: '基础', link: '/Node/Basics'},
                             {text: '进阶', link: '/Node/Upgrade'},
                         ]
                     },
@@ -124,7 +124,7 @@ export default defineConfig({
                         text: '🥑Git',
                         collapsed: true,
                         items: [
-                            {text: '基础', link: '/Git/Basics.md'},
+                            {text: '基础', link: '/Git/Basics'},
                             {text: '进阶', link: '/Git/Upgrade'},
                         ]
                     },
