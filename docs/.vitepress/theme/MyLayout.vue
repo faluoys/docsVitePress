@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <template #aside-outline-before>
-      当前页面
+      页面导航
     </template>
   </Layout>
 
