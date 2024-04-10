@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: 前端Fa
-  text: 一个前端技术爱好者
-  tagline: 一起探索前端吧！
+  text: 一个前端程序员博客
+  tagline: 集成一些前端开发的基础知识
   image:
     src: /icon/FA.svg
     alt: 前端Fa
@@ -17,9 +17,9 @@ hero:
       icon: /icon/webqianduan.svg
       text: 🌶️抖音@木昜各有叁水
       link: https://v.douyin.com/iRGFsyeS/ 8@5.com 02/22
-#    - theme: alt
-#      text: github
-#      link: https://github.com/faluoys
+    - theme: alt
+      text: github
+      link: https://github.com/faluoys
 
 features:
   - icon:

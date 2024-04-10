@@ -9,12 +9,12 @@ export default defineConfig({
     ],
     lang: 'zh-CN',
     title: "前端Fa",
-    description: "一个前端技术爱好者",
+    description: "一个前端程序员博客",
     // locales: {
     //     "/": {
     //         lang: "zh-CN",
     //         title: "前端Fa",
-    //         description: "一个前端技术爱好者"
+    //         description: "一个前端程序员博客"
     //     },
     //     "/en/": {
     //         lang: "en-US",
